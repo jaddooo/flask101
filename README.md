@@ -17,7 +17,7 @@ Workshop introducing how to use Flask for API development
 
 **(Mac)** open your terminal and run `brew install python@3.12`
 
-**(Windows)** download the windows python installer [here](https://www.python.org/ftp/python/3.7.7/python-3.7.7-amd64.exe)
+**(Windows)** download the windows python installer [here](https://www.python.org/ftp/python/3.12.2/python-3.12.2-embed-amd64.zip)
 
 To confirm that you have successfully downloaded python, on your terminal/command prompt run the following: `python3 --version`
 ```bash
