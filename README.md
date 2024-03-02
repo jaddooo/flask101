@@ -9,27 +9,27 @@ Workshop introducing how to use Flask for API development
 
 
 1. In your terminal/command prompt, navigate to the folder you would like to install the project files to. (ex.`cd path/to/folder/`) 
-2. Run the following: `git clone https://github.com/bbwong23/flask101.git`
+2. Run the following: `git clone https://github.com/jaddooo/flask101.git`
 
 
 ### 2. Python & Libraries
 **Install python3 to your computer if not already**
 
-**(Mac)** open your terminal and run `brew install python3`
+**(Mac)** open your terminal and run `brew install python@3.12`
 
 **(Windows)** download the windows python installer [here](https://www.python.org/ftp/python/3.7.7/python-3.7.7-amd64.exe)
 
-To confirm that you have successfully downloaded python, on your terminal/command prompt run the following: `python --version` or `python3 --version`
+To confirm that you have successfully downloaded python, on your terminal/command prompt run the following: `python3 --version`
 ```bash
-user:~$ python --version
-Python 3.7.3
+user:~$ python3 --version
+Python 3.12.2
 ```
-
-(**NOTE:** if the command works with `python3` instead of `python`, use `python3` or `pip3` instead when instructed to run commands using `python` or `pip`)
 
 **Install the python libraries needed**
 1. In your terminal/command prompt, navigate inside the project directory downloaded in step 2 under **Workshop Repo** above. 
-2. Run the following: `pip install -r requirements.txt`
+2. Create a virtual environment: `python3 -m venv .venv`
+3. Enter virtual environment: `source .venv/bin/activate`
+4. Run the following: `pip3 install -r requirements.txt`
 
 
 ### 3. Postman
@@ -63,7 +63,7 @@ Good luck!
 
 #### Start up your API server
 1. In your terminal/command prompt, navigate to the directory with the Flask file (the python file where you define your Flask app)
-2. Run the following: `python flaskfile.py` (replace the file name with whatever you are trying to run). If there are no errors in the your file, then you should get something that looks like this in return:
+2. Run the following: `python3 flaskfile.py` (replace the file name with whatever you are trying to run). If there are no errors in the your file, then you should get something that looks like this in return:
 ```bash
 user:~$ python3 flaskfile.py
  * Serving Flask app "sample" (lazy loading)
